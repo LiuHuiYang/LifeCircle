@@ -26,6 +26,9 @@ class HYNewFeaturesCollectionViewCell: UICollectionViewCell {
                 // 设置图片
                 iconView.image =
                     UIImage(named: msg["iconName"] ?? "")
+                
+                // 提示文字
+                messageLaebl.text = msg["message"]
             }
         }
     }
@@ -33,7 +36,9 @@ class HYNewFeaturesCollectionViewCell: UICollectionViewCell {
     /// 图片
     @IBOutlet weak var iconView: UIImageView!
     
-
+    
+    /// 提示文字
+    @IBOutlet weak var messageLaebl: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         

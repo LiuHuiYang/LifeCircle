@@ -37,6 +37,11 @@ import UIKit
         
         self.init()
         
+        setTitle(title, for: .normal)
+        titleLabel?.font = font
+        
+        setTitleColor(normalTitieColor, for: .normal)
+        setTitleColor(highlightedTitleColor, for: .highlighted)
         
         addTarget(target, action: action, for: event)
     }

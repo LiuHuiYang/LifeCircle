@@ -21,19 +21,32 @@
                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="7Vi-ui-VfG">
                         <rect key="frame" x="52.5" y="33" width="244" height="244"/>
                     </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qQI-ux-WBe">
+                        <rect key="frame" x="52.5" y="297" width="244" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="Nq7-fF-cua"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                        <color key="textColor" red="0.12156862745098039" green="0.12549019607843137" blue="0.13333333333333333" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
                 </subviews>
             </view>
             <color key="backgroundColor" red="0.8862745098" green="0.01176470588" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="7Vi-ui-VfG" firstAttribute="centerY" secondItem="ZTg-uK-7eu" secondAttribute="centerY" multiplier="0.7" id="DlB-TS-NWu"/>
+                <constraint firstItem="qQI-ux-WBe" firstAttribute="width" secondItem="7Vi-ui-VfG" secondAttribute="width" id="JRr-xq-iBH"/>
                 <constraint firstItem="7Vi-ui-VfG" firstAttribute="width" secondItem="gTV-IL-0wX" secondAttribute="width" multiplier="0.7" id="ZZm-gM-6Xu"/>
                 <constraint firstItem="7Vi-ui-VfG" firstAttribute="height" secondItem="gTV-IL-0wX" secondAttribute="width" multiplier="0.7" id="chL-YR-xQw"/>
                 <constraint firstItem="7Vi-ui-VfG" firstAttribute="centerX" secondItem="ZTg-uK-7eu" secondAttribute="centerX" id="dK1-2m-7DV"/>
+                <constraint firstItem="qQI-ux-WBe" firstAttribute="centerX" secondItem="7Vi-ui-VfG" secondAttribute="centerX" id="f9t-Fi-hy1"/>
+                <constraint firstItem="qQI-ux-WBe" firstAttribute="top" secondItem="7Vi-ui-VfG" secondAttribute="bottom" constant="20" id="vJw-WX-QU1"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
             <size key="customSize" width="349" height="443"/>
             <connections>
                 <outlet property="iconView" destination="7Vi-ui-VfG" id="fBc-vr-483"/>
+                <outlet property="messageLaebl" destination="qQI-ux-WBe" id="hHW-Kh-Kb6"/>
             </connections>
             <point key="canvasLocation" x="151.19999999999999" y="22.03898050974513"/>
         </collectionViewCell>
