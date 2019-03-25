@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  HYMineViewController.swift
 //  LifeCircle
 //
 //  Created by Apple on 2019/3/25.
@@ -8,13 +8,13 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class HYMineViewController: HYViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
 
+        // Do any additional setup after loading the view.
+    }
+     
 
 }
-
