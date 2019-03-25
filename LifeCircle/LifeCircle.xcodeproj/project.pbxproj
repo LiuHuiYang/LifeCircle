@@ -384,7 +384,6 @@
 				188ECCCBD75501667051EC6C /* Pods-LifeCircle.debug.xcconfig */,
 				079EEF465B3ADDBF7F6374A9 /* Pods-LifeCircle.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};

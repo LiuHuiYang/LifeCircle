@@ -8,7 +8,7 @@
 
 import UIKit
 
-// MARK: - ====== 常用的几个值  ======
+// MARK: - ====== 常用的几个高度值  ======
 
 /// 状态栏高度
 let statusHeight: CGFloat = 20
@@ -19,6 +19,11 @@ let tabBarHeight: CGFloat = 49
 /// 导航栏的高度
 let navigationBarHeight: CGFloat = 64
 
+// MARK: ====== 偏好设置的几个Key  ======
+
+
+/// 当前版本的记录
+let currentVersionKey = "currentVersionKey"
 
 // MARK: - 黑暗模式下的颜色
 
