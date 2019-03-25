@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SnapKit
 
 private let reuseIdentifier = "HYNewFeaturesCollectionViewCell"
 
@@ -26,7 +27,7 @@ class HYNewFeaturesCollectionViewController: UICollectionViewController {
             "color": "0x16d0c6"],
         
         [
-            "iconName": "guide_airConditione",
+            "iconName": "guide_airConditioner",
             "color": "0x48e1f8"],
         
         [
@@ -36,9 +37,20 @@ class HYNewFeaturesCollectionViewController: UICollectionViewController {
     ]
     
     /// 页面指示
-    private var pageControl: UIPageControl = UIPageControl()
+    private lazy var pageControl: UIPageControl = {
+        
+        let pageControl = UIPageControl()
+        
+        pageControl.currentPage = 0
+        pageControl.hidesForSinglePage = true
+        pageControl.currentPageIndicatorTintColor = UIColor.white
+        pageControl.pageIndicatorTintColor =
+            UIColor.color(withHex: 0x8d9aa5, alpha: 0.8)
+//        pageControl.backgroundColor = UIColor.red
+        return pageControl
+    }()
     
- 
+    
     init() {
         
         let flayout = UICollectionViewFlowLayout()
@@ -68,20 +80,14 @@ extension HYNewFeaturesCollectionViewController {
         
         setupCollectionView()
         
-        setupPageController()
+        setupPageControl()
     }
     
     
-    
     /// 设置页面指示
-    private func setupPageController() {
+    private func setupPageControl() {
         
-        pageControl.backgroundColor = UIColor.red
-        pageControl.tintColor = UIColor.white
         pageControl.numberOfPages = guideMessages.count
-        pageControl.currentPage = 0
-        pageControl.hidesForSinglePage = true
-        
         view.addSubview(pageControl)
     }
     
@@ -97,6 +103,38 @@ extension HYNewFeaturesCollectionViewController {
             UINib(nibName: reuseIdentifier, bundle: nil),
             forCellWithReuseIdentifier: reuseIdentifier
         )
+    }
+    
+    override func viewWillLayoutSubviews() {
+        super.viewWillLayoutSubviews()
+        
+        
+        // 页面指示器的约束
+        pageControl.snp.makeConstraints { (make) in
+           
+            make.centerX.equalToSuperview()
+            make.width.equalToSuperview()
+            
+            make.height.equalTo(tabBarHeight)
+            make.top.equalTo(
+                self.collectionView.snp.bottom
+            ).multipliedBy(0.7)
+        }
+    }
+}
+
+
+// MARK: - UICollectionViewDelegate
+extension HYNewFeaturesCollectionViewController {
+    
+    
+    override func scrollViewDidScroll(_ scrollView: UIScrollView) {
+       
+        let page =
+            (scrollView.contentOffset.x + scrollView.width * 0.5) /
+                scrollView.width
+
+        pageControl.currentPage = Int(page)
     }
 }
 

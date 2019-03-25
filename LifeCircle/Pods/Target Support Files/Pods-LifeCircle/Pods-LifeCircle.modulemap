@@ -1,0 +1,6 @@
+framework module Pods_LifeCircle {
+  umbrella header "Pods-LifeCircle-umbrella.h"
+
+  export *
+  module * { export * }
+}

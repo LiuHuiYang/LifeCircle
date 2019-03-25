@@ -32,6 +32,7 @@
 		042013AE2248A14900FD4E1E /* FileManager + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042013AD2248A14900FD4E1E /* FileManager + Extension.swift */; };
 		042013B62248AB7800FD4E1E /* HYNewFeaturesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042013B42248AB7800FD4E1E /* HYNewFeaturesCollectionViewCell.swift */; };
 		042013B72248AB7800FD4E1E /* HYNewFeaturesCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 042013B52248AB7800FD4E1E /* HYNewFeaturesCollectionViewCell.xib */; };
+		27547AFE11F7D03D11B46C33 /* Pods_LifeCircle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 503A12E17C245FF72D158FE9 /* Pods_LifeCircle.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +84,9 @@
 		042013AD2248A14900FD4E1E /* FileManager + Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FileManager + Extension.swift"; sourceTree = "<group>"; };
 		042013B42248AB7800FD4E1E /* HYNewFeaturesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HYNewFeaturesCollectionViewCell.swift; sourceTree = "<group>"; };
 		042013B52248AB7800FD4E1E /* HYNewFeaturesCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HYNewFeaturesCollectionViewCell.xib; sourceTree = "<group>"; };
+		079EEF465B3ADDBF7F6374A9 /* Pods-LifeCircle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LifeCircle.release.xcconfig"; path = "Target Support Files/Pods-LifeCircle/Pods-LifeCircle.release.xcconfig"; sourceTree = "<group>"; };
+		188ECCCBD75501667051EC6C /* Pods-LifeCircle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LifeCircle.debug.xcconfig"; path = "Target Support Files/Pods-LifeCircle/Pods-LifeCircle.debug.xcconfig"; sourceTree = "<group>"; };
+		503A12E17C245FF72D158FE9 /* Pods_LifeCircle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LifeCircle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27547AFE11F7D03D11B46C33 /* Pods_LifeCircle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,6 +122,8 @@
 				0420135922486C0F00FD4E1E /* LifeCircleTests */,
 				0420136422486C0F00FD4E1E /* LifeCircleUITests */,
 				0420134322486C0C00FD4E1E /* Products */,
+				FCCB0FE96C45831BC3806C0A /* Pods */,
+				DF8DDFCB440021D02CD612EB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -363,6 +370,24 @@
 			path = NewFeaturesCell;
 			sourceTree = "<group>";
 		};
+		DF8DDFCB440021D02CD612EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				503A12E17C245FF72D158FE9 /* Pods_LifeCircle.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FCCB0FE96C45831BC3806C0A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				188ECCCBD75501667051EC6C /* Pods-LifeCircle.debug.xcconfig */,
+				079EEF465B3ADDBF7F6374A9 /* Pods-LifeCircle.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -370,9 +395,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0420136A22486C0F00FD4E1E /* Build configuration list for PBXNativeTarget "LifeCircle" */;
 			buildPhases = (
+				7CBD895CA0621C4FE12C4FA4 /* [CP] Check Pods Manifest.lock */,
 				0420133E22486C0C00FD4E1E /* Sources */,
 				0420133F22486C0C00FD4E1E /* Frameworks */,
 				0420134022486C0C00FD4E1E /* Resources */,
+				0CFC688B987335B88D2811FB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -489,6 +516,53 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0CFC688B987335B88D2811FB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LifeCircle/Pods-LifeCircle-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LifeCircle/Pods-LifeCircle-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7CBD895CA0621C4FE12C4FA4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LifeCircle-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0420133E22486C0C00FD4E1E /* Sources */ = {
@@ -679,6 +753,7 @@
 		};
 		0420136B22486C0F00FD4E1E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 188ECCCBD75501667051EC6C /* Pods-LifeCircle.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
@@ -699,6 +774,7 @@
 		};
 		0420136C22486C0F00FD4E1E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 079EEF465B3ADDBF7F6374A9 /* Pods-LifeCircle.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
