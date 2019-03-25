@@ -14,6 +14,9 @@ class HYMainViewController: UITabBarController {
         super.viewDidLoad()
         
         setupChildControllers()
+        
+        printLog(message: UIApplication.applicationName())
+        printLog(message: UIApplication.applicationVersion())
     }
     
 }

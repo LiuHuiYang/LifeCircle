@@ -27,6 +27,8 @@
 		042013A02248776500FD4E1E /* UIFont + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0420139F2248776500FD4E1E /* UIFont + Extension.swift */; };
 		042013A2224878D100FD4E1E /* UIButton + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042013A1224878D100FD4E1E /* UIButton + Extension.swift */; };
 		042013A422487BFE00FD4E1E /* colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042013A322487BFE00FD4E1E /* colors.swift */; };
+		042013AA224887D700FD4E1E /* HYNewFeaturesCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042013A9224887D700FD4E1E /* HYNewFeaturesCollectionViewController.swift */; };
+		042013AC224887F700FD4E1E /* UIApplication + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042013AB224887F700FD4E1E /* UIApplication + Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +75,8 @@
 		0420139F2248776500FD4E1E /* UIFont + Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont + Extension.swift"; sourceTree = "<group>"; };
 		042013A1224878D100FD4E1E /* UIButton + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton + Extension.swift"; sourceTree = "<group>"; };
 		042013A322487BFE00FD4E1E /* colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = colors.swift; sourceTree = "<group>"; };
+		042013A9224887D700FD4E1E /* HYNewFeaturesCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HYNewFeaturesCollectionViewController.swift; sourceTree = "<group>"; };
+		042013AB224887F700FD4E1E /* UIApplication + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication + Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -191,6 +195,7 @@
 			isa = PBXGroup;
 			children = (
 				042013952248748D00FD4E1E /* Bundle + Extension.swift */,
+				042013AB224887F700FD4E1E /* UIApplication + Extension.swift */,
 				0420139B2248774C00FD4E1E /* UIColor + Extension.swift */,
 				0420139C2248774C00FD4E1E /* UIView + Extension.swift */,
 				0420139F2248776500FD4E1E /* UIFont + Extension.swift */,
@@ -233,6 +238,7 @@
 		0420137E224871E600FD4E1E /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				042013A5224887BA00FD4E1E /* NewFeatures */,
 				042013832248721300FD4E1E /* Main */,
 				0420137F224871E600FD4E1E /* Home */,
 				04201380224871E600FD4E1E /* Room */,
@@ -304,6 +310,38 @@
 				042013872248722500FD4E1E /* HYViewController.swift */,
 				042013892248723800FD4E1E /* HYNavigationController.swift */,
 				0420138B2248724B00FD4E1E /* HYMainViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		042013A5224887BA00FD4E1E /* NewFeatures */ = {
+			isa = PBXGroup;
+			children = (
+				042013A6224887BA00FD4E1E /* ViewModel */,
+				042013A7224887BA00FD4E1E /* Model */,
+				042013A8224887BA00FD4E1E /* View */,
+			);
+			path = NewFeatures;
+			sourceTree = "<group>";
+		};
+		042013A6224887BA00FD4E1E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		042013A7224887BA00FD4E1E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		042013A8224887BA00FD4E1E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				042013A9224887D700FD4E1E /* HYNewFeaturesCollectionViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -447,6 +485,7 @@
 				042013A2224878D100FD4E1E /* UIButton + Extension.swift in Sources */,
 				042013962248748D00FD4E1E /* Bundle + Extension.swift in Sources */,
 				0420138C2248724B00FD4E1E /* HYMainViewController.swift in Sources */,
+				042013AA224887D700FD4E1E /* HYNewFeaturesCollectionViewController.swift in Sources */,
 				04201392224872C600FD4E1E /* HYSceneViewController.swift in Sources */,
 				042013A422487BFE00FD4E1E /* colors.swift in Sources */,
 				04201390224872BF00FD4E1E /* HYRoomViewController.swift in Sources */,
@@ -454,6 +493,7 @@
 				0420139D2248774C00FD4E1E /* UIColor + Extension.swift in Sources */,
 				04201394224872D200FD4E1E /* HYMineViewController.swift in Sources */,
 				042013A02248776500FD4E1E /* UIFont + Extension.swift in Sources */,
+				042013AC224887F700FD4E1E /* UIApplication + Extension.swift in Sources */,
 				042013882248722500FD4E1E /* HYViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

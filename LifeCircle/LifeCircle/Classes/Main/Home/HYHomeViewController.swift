@@ -15,13 +15,5 @@ class HYHomeViewController: HYViewController {
 
         // Do any additional setup after loading the view.
     }
-    
-
-    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        
-        let vc = HYViewController()
-        vc.title = "测试代码"
-        navigationController?.pushViewController(vc, animated: true)
-    }
 
 }
