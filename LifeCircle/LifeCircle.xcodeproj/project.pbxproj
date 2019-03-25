@@ -20,6 +20,11 @@
 		04201392224872C600FD4E1E /* HYSceneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04201391224872C600FD4E1E /* HYSceneViewController.swift */; };
 		04201394224872D200FD4E1E /* HYMineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04201393224872D200FD4E1E /* HYMineViewController.swift */; };
 		042013962248748D00FD4E1E /* Bundle + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042013952248748D00FD4E1E /* Bundle + Extension.swift */; };
+		042013982248772E00FD4E1E /* LoadNibView + protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042013972248772D00FD4E1E /* LoadNibView + protocol.swift */; };
+		0420139A2248773E00FD4E1E /* PrintLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042013992248773E00FD4E1E /* PrintLog.swift */; };
+		0420139D2248774C00FD4E1E /* UIColor + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0420139B2248774C00FD4E1E /* UIColor + Extension.swift */; };
+		0420139E2248774C00FD4E1E /* UIView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0420139C2248774C00FD4E1E /* UIView + Extension.swift */; };
+		042013A02248776500FD4E1E /* UIFont + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0420139F2248776500FD4E1E /* UIFont + Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +64,11 @@
 		04201391224872C600FD4E1E /* HYSceneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HYSceneViewController.swift; sourceTree = "<group>"; };
 		04201393224872D200FD4E1E /* HYMineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HYMineViewController.swift; sourceTree = "<group>"; };
 		042013952248748D00FD4E1E /* Bundle + Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bundle + Extension.swift"; sourceTree = "<group>"; };
+		042013972248772D00FD4E1E /* LoadNibView + protocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LoadNibView + protocol.swift"; sourceTree = "<group>"; };
+		042013992248773E00FD4E1E /* PrintLog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrintLog.swift; sourceTree = "<group>"; };
+		0420139B2248774C00FD4E1E /* UIColor + Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor + Extension.swift"; sourceTree = "<group>"; };
+		0420139C2248774C00FD4E1E /* UIView + Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView + Extension.swift"; sourceTree = "<group>"; };
+		0420139F2248776500FD4E1E /* UIFont + Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont + Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,6 +187,9 @@
 			isa = PBXGroup;
 			children = (
 				042013952248748D00FD4E1E /* Bundle + Extension.swift */,
+				0420139B2248774C00FD4E1E /* UIColor + Extension.swift */,
+				0420139C2248774C00FD4E1E /* UIView + Extension.swift */,
+				0420139F2248776500FD4E1E /* UIFont + Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -184,6 +197,7 @@
 		0420137A224871E600FD4E1E /* Protocol */ = {
 			isa = PBXGroup;
 			children = (
+				042013972248772D00FD4E1E /* LoadNibView + protocol.swift */,
 			);
 			path = Protocol;
 			sourceTree = "<group>";
@@ -198,6 +212,7 @@
 		0420137C224871E600FD4E1E /* Additional */ = {
 			isa = PBXGroup;
 			children = (
+				042013992248773E00FD4E1E /* PrintLog.swift */,
 			);
 			path = Additional;
 			sourceTree = "<group>";
@@ -420,12 +435,17 @@
 			files = (
 				0420138A2248723800FD4E1E /* HYNavigationController.swift in Sources */,
 				0420138E224872B500FD4E1E /* HYHomeViewController.swift in Sources */,
+				042013982248772E00FD4E1E /* LoadNibView + protocol.swift in Sources */,
 				0420134622486C0C00FD4E1E /* AppDelegate.swift in Sources */,
+				0420139A2248773E00FD4E1E /* PrintLog.swift in Sources */,
 				042013962248748D00FD4E1E /* Bundle + Extension.swift in Sources */,
 				0420138C2248724B00FD4E1E /* HYMainViewController.swift in Sources */,
 				04201392224872C600FD4E1E /* HYSceneViewController.swift in Sources */,
 				04201390224872BF00FD4E1E /* HYRoomViewController.swift in Sources */,
+				0420139E2248774C00FD4E1E /* UIView + Extension.swift in Sources */,
+				0420139D2248774C00FD4E1E /* UIColor + Extension.swift in Sources */,
 				04201394224872D200FD4E1E /* HYMineViewController.swift in Sources */,
+				042013A02248776500FD4E1E /* UIFont + Extension.swift in Sources */,
 				042013882248722500FD4E1E /* HYViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
