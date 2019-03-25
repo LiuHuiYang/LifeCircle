@@ -25,6 +25,8 @@
 		0420139D2248774C00FD4E1E /* UIColor + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0420139B2248774C00FD4E1E /* UIColor + Extension.swift */; };
 		0420139E2248774C00FD4E1E /* UIView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0420139C2248774C00FD4E1E /* UIView + Extension.swift */; };
 		042013A02248776500FD4E1E /* UIFont + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0420139F2248776500FD4E1E /* UIFont + Extension.swift */; };
+		042013A2224878D100FD4E1E /* UIButton + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042013A1224878D100FD4E1E /* UIButton + Extension.swift */; };
+		042013A422487BFE00FD4E1E /* colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042013A322487BFE00FD4E1E /* colors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +71,8 @@
 		0420139B2248774C00FD4E1E /* UIColor + Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor + Extension.swift"; sourceTree = "<group>"; };
 		0420139C2248774C00FD4E1E /* UIView + Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView + Extension.swift"; sourceTree = "<group>"; };
 		0420139F2248776500FD4E1E /* UIFont + Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont + Extension.swift"; sourceTree = "<group>"; };
+		042013A1224878D100FD4E1E /* UIButton + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton + Extension.swift"; sourceTree = "<group>"; };
+		042013A322487BFE00FD4E1E /* colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = colors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -190,6 +194,7 @@
 				0420139B2248774C00FD4E1E /* UIColor + Extension.swift */,
 				0420139C2248774C00FD4E1E /* UIView + Extension.swift */,
 				0420139F2248776500FD4E1E /* UIFont + Extension.swift */,
+				042013A1224878D100FD4E1E /* UIButton + Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -205,6 +210,7 @@
 		0420137B224871E600FD4E1E /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				042013A322487BFE00FD4E1E /* colors.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -438,9 +444,11 @@
 				042013982248772E00FD4E1E /* LoadNibView + protocol.swift in Sources */,
 				0420134622486C0C00FD4E1E /* AppDelegate.swift in Sources */,
 				0420139A2248773E00FD4E1E /* PrintLog.swift in Sources */,
+				042013A2224878D100FD4E1E /* UIButton + Extension.swift in Sources */,
 				042013962248748D00FD4E1E /* Bundle + Extension.swift in Sources */,
 				0420138C2248724B00FD4E1E /* HYMainViewController.swift in Sources */,
 				04201392224872C600FD4E1E /* HYSceneViewController.swift in Sources */,
+				042013A422487BFE00FD4E1E /* colors.swift in Sources */,
 				04201390224872BF00FD4E1E /* HYRoomViewController.swift in Sources */,
 				0420139E2248774C00FD4E1E /* UIView + Extension.swift in Sources */,
 				0420139D2248774C00FD4E1E /* UIColor + Extension.swift in Sources */,
