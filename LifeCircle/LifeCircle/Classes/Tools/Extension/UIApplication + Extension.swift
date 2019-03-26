@@ -4,6 +4,16 @@ import UIKit
  extension UIApplication {
     
     
+    /// 页面布局方向
+    ///
+    /// - Returns: true - 从右到到 false 从右到左
+    static func isLeftToRight() -> Bool {
+        
+        return
+            UIApplication.shared.userInterfaceLayoutDirection
+                == .leftToRight
+    }
+    
     /// 获得当前的应用的名称
     ///
     /// - Returns: 应用名称

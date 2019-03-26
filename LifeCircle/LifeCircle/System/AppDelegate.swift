@@ -33,6 +33,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     /// 当前应用是是最新版本
     private func isLatestVersion() -> Bool {
         
+        return false
+        
         // 获得沙盒版本
         let sandVersion = UserDefaults.standard.object(forKey: currentVersionKey) as? String
         

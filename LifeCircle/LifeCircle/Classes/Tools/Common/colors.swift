@@ -25,11 +25,20 @@ let navigationBarHeight: CGFloat = 64
 /// 当前版本的记录
 let currentVersionKey = "currentVersionKey"
 
-// MARK: - 黑暗模式下的颜色
+// MARK: - ====== 普通模式下的颜色 ======
+
+
+/// 普通模式的主题背景颜色
+let backgroundColorLight =
+    UIColor.color(withHex: 0x47a0db)
+
+
+// MARK: - ====== 黑暗模式下的颜色 ======
+
 
 /// 黑暗模式的主题背景颜色
 let backgroundColorDark =
-    //    UIColor.color(withHex: 0x383f45)
+//        UIColor.color(withHex: 0x383f45)
     //    UIColor.color(withHex: 0x60656a)
     UIColor.color(withHex: 0x202632)
 

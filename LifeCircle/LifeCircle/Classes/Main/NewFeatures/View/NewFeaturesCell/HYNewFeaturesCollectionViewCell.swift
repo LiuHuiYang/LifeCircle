@@ -41,7 +41,7 @@ class HYNewFeaturesCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var messageLaebl: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
-        
+         
     }
 
 }

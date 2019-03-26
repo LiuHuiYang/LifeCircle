@@ -46,6 +46,9 @@ class HYNewFeaturesCollectionViewController: UICollectionViewController {
         
         let pageControl = UIPageControl()
         
+        // 布局方向是双向的
+        pageControl.semanticContentAttribute = .spatial
+        
         pageControl.currentPage = 0
         pageControl.hidesForSinglePage = true
         pageControl.currentPageIndicatorTintColor = UIColor.white
@@ -98,6 +101,7 @@ extension HYNewFeaturesCollectionViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         
         // 设置collectionView
         collectionView.isPagingEnabled = true
@@ -165,12 +169,22 @@ extension HYNewFeaturesCollectionViewController {
        
         let page =
             Int((scrollView.contentOffset.x + scrollView.width * 0.5) /
-                scrollView.width)
+                scrollView.width
+        )
 
+        printLog(message: page)
         pageControl.currentPage = page
         
-        startButton?.isHidden =
-            page != (guideMessages.count - 1)
+        
+        if UIApplication.isLeftToRight() {
+            
+            startButton?.isHidden =
+                page != (guideMessages.count - 1)
+        
+        } else {
+            
+            startButton?.isHidden = page != 0
+        }
     }
 }
 

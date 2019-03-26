@@ -84,7 +84,7 @@ extension HYMainViewController {
         viewController.tabBarItem.setTitleTextAttributes(
             [NSAttributedString.Key.foregroundColor:
                 UIColor.white,
-             NSAttributedString.Key.font: UIFont.boldSystemFont(ofSize: 13.0)],
+             NSAttributedString.Key.font: UIFont.boldSystemFont(ofSize: 14.0)],
             for: .normal
         )
 
