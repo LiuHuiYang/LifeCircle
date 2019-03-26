@@ -28,7 +28,11 @@ class HYNewFeaturesCollectionViewCell: UICollectionViewCell {
                     UIImage(named: msg["iconName"] ?? "")
                 
                 // 提示文字
-                messageLaebl.text = msg["message"]
+                messageLaebl.text =
+                    HYLanguageTools.adaptationText(
+                        key: msg["message"]!,
+                        comment: "引导页的三个提示文字"
+                )
             }
         }
     }

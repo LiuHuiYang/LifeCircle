@@ -25,19 +25,19 @@ class HYNewFeaturesCollectionViewController: UICollectionViewController {
         [
             "iconName": "guide_light",
             "color": "0x16d0c6",
-            "message": "互联网改变生活"
+            "message": "Internet Change Life"
         ],
         
         [
             "iconName": "guide_airConditioner",
             "color": "0x48e1f8",
-            "message": "科技让生活更有趣"
+            "message": "Technology Makes Life More Interesting"
         ],
         
         [
             "iconName": "guide_tv",
             "color": "0x5bb6f5",
-            "message": "智能让生活更简单"
+            "message": "Intelligence Makes Life Simpler"
         ]
     ]
     
@@ -58,10 +58,16 @@ class HYNewFeaturesCollectionViewController: UICollectionViewController {
         return pageControl
     }()
     
+    
     /// 开启按钮
     private lazy var startButton =
         UIButton(
-            title: "开始使用",
+            title:
+                HYLanguageTools.adaptationText(
+                    key: "startButton",
+                    comment: "引导页开始体验的标题"
+            ),
+            
             font: UIFont(name: "PingFangSC-Semibold", size: 18),
             normalTitieColor: UIColor.white,
             highlightedTitleColor: UIColor.white,
@@ -101,7 +107,6 @@ extension HYNewFeaturesCollectionViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         
         // 设置collectionView
         collectionView.isPagingEnabled = true

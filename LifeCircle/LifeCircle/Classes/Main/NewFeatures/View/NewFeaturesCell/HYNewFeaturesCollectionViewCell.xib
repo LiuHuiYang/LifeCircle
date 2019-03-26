@@ -22,9 +22,9 @@
                         <rect key="frame" x="52.5" y="33" width="244" height="244"/>
                     </imageView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qQI-ux-WBe">
-                        <rect key="frame" x="52.5" y="297" width="244" height="30"/>
+                        <rect key="frame" x="52.5" y="297" width="244" height="49"/>
                         <constraints>
-                            <constraint firstAttribute="height" constant="30" id="Nq7-fF-cua"/>
+                            <constraint firstAttribute="height" constant="49" id="Nq7-fF-cua"/>
                         </constraints>
                         <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
                         <color key="textColor" red="0.12156862745098039" green="0.12549019607843137" blue="0.13333333333333333" alpha="1" colorSpace="calibratedRGB"/>

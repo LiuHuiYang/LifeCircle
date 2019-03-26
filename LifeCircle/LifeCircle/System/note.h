@@ -25,4 +25,7 @@
     5.调试语言
         项目-> Edit Scheme -> Run -> Options
         -> Application Language -> 选择语言
+ 
+    6.文本适配
+      创建strings文件
  */

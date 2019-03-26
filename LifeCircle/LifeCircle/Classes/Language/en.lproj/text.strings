@@ -5,3 +5,24 @@
   Created by Apple on 2019/3/26.
   Copyright © 2019 Apple. All rights reserved.
 */
+
+// MARK: - ====== info.plist ======
+
+// App名称
+"CFBundleDisplayName" = "LifeCircle";
+
+// MARK: - ====== 引导页面 ======
+
+// 互联网改变生活
+"Internet Change Life" = "Internet Change Life";
+
+// 科技让生活更有趣
+"Technology Makes Life More Interesting" =
+    "Technology Makes Life More Interesting";
+
+// 智能让生活更简单
+"Intelligence Makes Life Simpler" = "Intelligence Makes Life Simpler";
+
+
+// 体验按钮
+"startButton" = "Start experiencing";
