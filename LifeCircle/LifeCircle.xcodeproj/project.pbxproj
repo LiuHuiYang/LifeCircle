@@ -26,7 +26,7 @@
 		0420139E2248774C00FD4E1E /* UIView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0420139C2248774C00FD4E1E /* UIView + Extension.swift */; };
 		042013A02248776500FD4E1E /* UIFont + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0420139F2248776500FD4E1E /* UIFont + Extension.swift */; };
 		042013A2224878D100FD4E1E /* UIButton + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042013A1224878D100FD4E1E /* UIButton + Extension.swift */; };
-		042013A422487BFE00FD4E1E /* colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042013A322487BFE00FD4E1E /* colors.swift */; };
+		042013A422487BFE00FD4E1E /* Others.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042013A322487BFE00FD4E1E /* Others.swift */; };
 		042013AA224887D700FD4E1E /* HYNewFeaturesCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042013A9224887D700FD4E1E /* HYNewFeaturesCollectionViewController.swift */; };
 		042013AC224887F700FD4E1E /* UIApplication + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042013AB224887F700FD4E1E /* UIApplication + Extension.swift */; };
 		042013AE2248A14900FD4E1E /* FileManager + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042013AD2248A14900FD4E1E /* FileManager + Extension.swift */; };
@@ -81,7 +81,7 @@
 		0420139C2248774C00FD4E1E /* UIView + Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView + Extension.swift"; sourceTree = "<group>"; };
 		0420139F2248776500FD4E1E /* UIFont + Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont + Extension.swift"; sourceTree = "<group>"; };
 		042013A1224878D100FD4E1E /* UIButton + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton + Extension.swift"; sourceTree = "<group>"; };
-		042013A322487BFE00FD4E1E /* colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = colors.swift; sourceTree = "<group>"; };
+		042013A322487BFE00FD4E1E /* Others.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Others.swift; sourceTree = "<group>"; };
 		042013A9224887D700FD4E1E /* HYNewFeaturesCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HYNewFeaturesCollectionViewController.swift; sourceTree = "<group>"; };
 		042013AB224887F700FD4E1E /* UIApplication + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication + Extension.swift"; sourceTree = "<group>"; };
 		042013AD2248A14900FD4E1E /* FileManager + Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FileManager + Extension.swift"; sourceTree = "<group>"; };
@@ -242,7 +242,7 @@
 		0420137B224871E600FD4E1E /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				042013A322487BFE00FD4E1E /* colors.swift */,
+				042013A322487BFE00FD4E1E /* Others.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -481,6 +481,7 @@
 				TargetAttributes = {
 					0420134122486C0C00FD4E1E = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 					};
 					0420135522486C0F00FD4E1E = {
 						CreatedOnToolsVersion = 10.1;
@@ -606,7 +607,7 @@
 				0420138C2248724B00FD4E1E /* HYMainViewController.swift in Sources */,
 				042013AA224887D700FD4E1E /* HYNewFeaturesCollectionViewController.swift in Sources */,
 				04201392224872C600FD4E1E /* HYSceneViewController.swift in Sources */,
-				042013A422487BFE00FD4E1E /* colors.swift in Sources */,
+				042013A422487BFE00FD4E1E /* Others.swift in Sources */,
 				042013AE2248A14900FD4E1E /* FileManager + Extension.swift in Sources */,
 				04201390224872BF00FD4E1E /* HYRoomViewController.swift in Sources */,
 				0420139E2248774C00FD4E1E /* UIView + Extension.swift in Sources */,
@@ -816,7 +817,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.smarthomegroup.SmartLife;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = SmartLife_Development;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -838,7 +839,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.smarthomegroup.SmartLife;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "SmartLife_ Distribution";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;

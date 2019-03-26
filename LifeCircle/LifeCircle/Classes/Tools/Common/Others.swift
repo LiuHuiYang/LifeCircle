@@ -55,3 +55,17 @@ let auxiliaryColorDark = UIColor.color(withHex: 0xed4949)
 /// 黑暗模式的点缀颜色
 let ornamentColorDark = UIColor.color(withHex: 0x10e634)
 
+
+// MARK: - ======  地图的url ======
+
+/// 高德地图
+let gaodeMapAddress = "iosamap"
+
+/// 百度地图
+let baidumMapAddress = "baidumap"
+
+/// 谷歌地图
+let googleMapAddress = "comgooglemaps"
+
+/// 腾讯地图
+let qqMapAddress = "qqmap"

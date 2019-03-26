@@ -34,4 +34,27 @@
  
     8.货币符号的适配
  
+    9.上架时适配多语言 在 itunes store中有文档需要写
+ 
+    10.应用内语言切换  == 收藏网络链接
+ 
+ 
+    11.推荐框架
+ 
+    12. 查看 https://blog.csdn.net/cdblh/article/details/44347033 完成笔记
+ 
+ =============================
+ 
+ 4.集成跳转第三方地图
+ 
+     百度地图：baidumap
+     高德地图：iosamap
+     谷歌地图：comgooglemaps
+     腾讯地图：qqmap
+ 
+    1.设置白名单
+    plist文件新增LSApplicationQueriesSchemes关键字，
+    类型为NSArray，并在其下添加子目录，类型为NSString，
+    内容为各地图对应的url Scheme。
+ 
  */

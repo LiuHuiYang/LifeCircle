@@ -32,7 +32,7 @@
                     </label>
                 </subviews>
             </view>
-            <color key="backgroundColor" red="0.8862745098" green="0.01176470588" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <constraints>
                 <constraint firstItem="7Vi-ui-VfG" firstAttribute="centerY" secondItem="ZTg-uK-7eu" secondAttribute="centerY" multiplier="0.7" id="DlB-TS-NWu"/>
                 <constraint firstItem="qQI-ux-WBe" firstAttribute="width" secondItem="7Vi-ui-VfG" secondAttribute="width" id="JRr-xq-iBH"/>
