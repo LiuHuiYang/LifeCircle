@@ -177,9 +177,7 @@ extension HYNewFeaturesCollectionViewController {
                 scrollView.width
         )
 
-        printLog(message: page)
         pageControl.currentPage = page
-        
         
         if UIApplication.isLeftToRight() {
             

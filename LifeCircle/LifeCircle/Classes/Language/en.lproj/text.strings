@@ -6,10 +6,6 @@
   Copyright © 2019 Apple. All rights reserved.
 */
 
-// MARK: - ====== info.plist ======
-
-// App名称
-"CFBundleDisplayName" = "LifeCircle";
 
 // MARK: - ====== 引导页面 ======
 

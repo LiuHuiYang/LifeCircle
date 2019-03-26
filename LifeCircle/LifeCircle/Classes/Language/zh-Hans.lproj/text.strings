@@ -6,11 +6,6 @@
   Copyright © 2019 Apple. All rights reserved.
 */
 
-// MARK: - ====== info.plist ======
-
-// App名称
-"CFBundleDisplayName" = "生活圈";
-
 // MARK: - ====== 引导页面 ======
 
 // 互联网改变生活
