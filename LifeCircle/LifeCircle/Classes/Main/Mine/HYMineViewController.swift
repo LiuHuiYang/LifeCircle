@@ -13,8 +13,20 @@ class HYMineViewController: HYViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        // 测试语言切换
+        
     }
      
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+         
+        let test = HYSwithLanguageViewController()
+        
+        navigationController?.pushViewController(test, animated: true)
+    }
+}
 
+
+// MARK: - 语言切换
+extension HYMineViewController {
+    
 }

@@ -20,4 +20,10 @@
 "Intelligence Makes Life Simpler" = "ذكي   جعل الحياة   أسهل";
 
 // 体验按钮
-"startButton" = "بدأت تجربة";
+"StartButton" = "بدأت تجربة";
+
+
+// MARK: - ====== 语言切换 ======
+
+// 多语言
+"Multilingual" = "متعدد اللغات";

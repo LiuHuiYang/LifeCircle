@@ -16,13 +16,14 @@
  
  
  3.语言适配
-    1.图片方向： 要注意图片的方向性 尤其是 剪头
+    1.图片方向： 要注意图片的方向性 尤其是 箭头
     2.判断设备的方向性的判断
     3.引导页的方向 属性设置
         pageControl的滚动样式要设为 .spe...
         collectionView会自动适配，不需要设置
     4.约束需要支持rtl，就必须要使用leading和trailing。
     5.调试语言
+        模拟器 每次设置很麻烦，但info.plist中的适配必须使用模拟器
         项目-> Edit Scheme -> Run -> Options
         -> Application Language -> 选择语言
  

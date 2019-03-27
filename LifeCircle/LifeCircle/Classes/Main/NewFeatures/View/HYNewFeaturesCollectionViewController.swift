@@ -64,7 +64,7 @@ class HYNewFeaturesCollectionViewController: UICollectionViewController {
         UIButton(
             title:
                 HYLanguageTools.adaptationText(
-                    key: "startButton",
+                    key: "StartButton",
                     comment: "引导页开始体验的标题"
             ),
             

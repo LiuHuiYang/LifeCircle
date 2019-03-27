@@ -21,4 +21,10 @@
 
 
 // 体验按钮
-"startButton" = "Start experiencing";
+"StartButton" = "Start experiencing";
+
+
+// MARK: - ====== 语言切换 ======
+
+// 多语言
+"Multilingual" = "Multilingual";

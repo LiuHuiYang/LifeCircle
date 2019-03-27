@@ -13,7 +13,7 @@ class HYViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        view.backgroundColor = backgroundColorLight
+        view.backgroundColor = UIColor.random()
         
     }
     

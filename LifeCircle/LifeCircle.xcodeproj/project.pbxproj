@@ -32,6 +32,8 @@
 		042013AE2248A14900FD4E1E /* FileManager + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042013AD2248A14900FD4E1E /* FileManager + Extension.swift */; };
 		042013B62248AB7800FD4E1E /* HYNewFeaturesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042013B42248AB7800FD4E1E /* HYNewFeaturesCollectionViewCell.swift */; };
 		042013B72248AB7800FD4E1E /* HYNewFeaturesCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 042013B52248AB7800FD4E1E /* HYNewFeaturesCollectionViewCell.xib */; };
+		04218B1F224B1C4B007A438D /* HYSwithLanguageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04218B1E224B1C4B007A438D /* HYSwithLanguageViewController.swift */; };
+		04218B25224B608E007A438D /* HYRoomDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04218B24224B608E007A438D /* HYRoomDetailViewController.swift */; };
 		04B1E22E2249C47500E99DDF /* text.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04B1E2302249C47500E99DDF /* text.strings */; };
 		04B1E2342249C81300E99DDF /* HYLanguageTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B1E2332249C81300E99DDF /* HYLanguageTools.swift */; };
 		04B1E2462249CF7D00E99DDF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04B1E2482249CF7D00E99DDF /* InfoPlist.strings */; };
@@ -87,6 +89,8 @@
 		042013AD2248A14900FD4E1E /* FileManager + Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FileManager + Extension.swift"; sourceTree = "<group>"; };
 		042013B42248AB7800FD4E1E /* HYNewFeaturesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HYNewFeaturesCollectionViewCell.swift; sourceTree = "<group>"; };
 		042013B52248AB7800FD4E1E /* HYNewFeaturesCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HYNewFeaturesCollectionViewCell.xib; sourceTree = "<group>"; };
+		04218B1E224B1C4B007A438D /* HYSwithLanguageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HYSwithLanguageViewController.swift; sourceTree = "<group>"; };
+		04218B24224B608E007A438D /* HYRoomDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HYRoomDetailViewController.swift; sourceTree = "<group>"; };
 		04B1E22A2249C36A00E99DDF /* note.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = note.h; sourceTree = "<group>"; };
 		04B1E22F2249C47500E99DDF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/text.strings; sourceTree = "<group>"; };
 		04B1E2312249C49700E99DDF /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/text.strings"; sourceTree = "<group>"; };
@@ -287,6 +291,7 @@
 			isa = PBXGroup;
 			children = (
 				0420138F224872BF00FD4E1E /* HYRoomViewController.swift */,
+				04218B20224B605B007A438D /* Zone */,
 			);
 			path = Room;
 			sourceTree = "<group>";
@@ -295,6 +300,7 @@
 			isa = PBXGroup;
 			children = (
 				04201393224872D200FD4E1E /* HYMineViewController.swift */,
+				04218B19224B1153007A438D /* SwitchLanguage */,
 			);
 			path = Mine;
 			sourceTree = "<group>";
@@ -381,6 +387,46 @@
 				042013B52248AB7800FD4E1E /* HYNewFeaturesCollectionViewCell.xib */,
 			);
 			path = NewFeaturesCell;
+			sourceTree = "<group>";
+		};
+		04218B19224B1153007A438D /* SwitchLanguage */ = {
+			isa = PBXGroup;
+			children = (
+				04218B1E224B1C4B007A438D /* HYSwithLanguageViewController.swift */,
+			);
+			path = SwitchLanguage;
+			sourceTree = "<group>";
+		};
+		04218B20224B605B007A438D /* Zone */ = {
+			isa = PBXGroup;
+			children = (
+				04218B21224B605B007A438D /* ViewModel */,
+				04218B22224B605B007A438D /* Model */,
+				04218B23224B605B007A438D /* View */,
+			);
+			path = Zone;
+			sourceTree = "<group>";
+		};
+		04218B21224B605B007A438D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		04218B22224B605B007A438D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04218B23224B605B007A438D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04218B24224B608E007A438D /* HYRoomDetailViewController.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		04B1E22B2249C37A00E99DDF /* Language */ = {
@@ -599,6 +645,7 @@
 				0420138A2248723800FD4E1E /* HYNavigationController.swift in Sources */,
 				0420138E224872B500FD4E1E /* HYHomeViewController.swift in Sources */,
 				042013982248772E00FD4E1E /* LoadNibView + protocol.swift in Sources */,
+				04218B25224B608E007A438D /* HYRoomDetailViewController.swift in Sources */,
 				0420134622486C0C00FD4E1E /* AppDelegate.swift in Sources */,
 				0420139A2248773E00FD4E1E /* PrintLog.swift in Sources */,
 				042013B62248AB7800FD4E1E /* HYNewFeaturesCollectionViewCell.swift in Sources */,
@@ -617,6 +664,7 @@
 				04B1E2342249C81300E99DDF /* HYLanguageTools.swift in Sources */,
 				042013AC224887F700FD4E1E /* UIApplication + Extension.swift in Sources */,
 				042013882248722500FD4E1E /* HYViewController.swift in Sources */,
+				04218B1F224B1C4B007A438D /* HYSwithLanguageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

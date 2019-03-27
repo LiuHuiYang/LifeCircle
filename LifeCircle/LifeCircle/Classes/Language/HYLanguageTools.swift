@@ -8,6 +8,10 @@
 
 import Foundation
 
+/// 语言修改后的通知
+let HYApplicationLanguageDidChangeNotification =
+    "HYApplicationLanguageDidChangeNotification"
+
 /// 语言工具
 struct HYLanguageTools {
     
@@ -27,5 +31,13 @@ struct HYLanguageTools {
                               value: key,
                               comment: comment
         )
+    }
+}
+
+extension HYLanguageTools {
+    
+    func setDefultLanguge() {
+        
+        
     }
 }

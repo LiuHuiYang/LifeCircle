@@ -10,7 +10,10 @@ import UIKit
     ///   - greenColor: green【0, 255】
     ///   - blueColor: blue【0, 255】
     ///   - alpha: 透明度 【0， 1】
-    convenience init?(redColor: UInt8, greenColor: UInt8, blueColor: UInt8, alpha: CGFloat) {
+    convenience init?(redColor: UInt8,
+                      greenColor: UInt8,
+                      blueColor: UInt8,
+                      alpha: CGFloat) {
         
             self.init(red: CGFloat(redColor) / 255.0,
                       green: CGFloat(greenColor) / 255.0,
@@ -62,7 +65,8 @@ import UIKit
     /// - Parameters:
     ///   - withString: 字符串 "0xRRGGBB"、 "#RRGGBB"、 "#RGB"
     ///   - alpha: 透明度 【0, 1.0】
-    static func color(withString string: String, alpha: CGFloat = 1.0) -> UIColor? {
+    static func color(withString string: String,
+                      alpha: CGFloat = 1.0) -> UIColor? {
         
         if string.isEmpty {
             return nil
